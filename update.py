@@ -3,15 +3,13 @@ from datetime import datetime, timedelta
 import requests
 
 API_URL = "https://ecampus.ncfu.ru/schedule/GetSchedule"
-GROUP_ID = 19931  # ID группы ИНС-б-о-26-2
+GROUP_ID = 19931  # ИНС-б-о-26-2
 
 def get_monday(date: datetime) -> datetime:
-    """Возвращает понедельник недели для переданной даты"""
     return date - timedelta(days=date.weekday())
 
 def fetch_schedule_for_date(target_date: datetime):
     monday = get_monday(target_date)
-    # Формат даты, который ожидает сервер СКФУ
     date_str = monday.strftime("%Y-%m-%dT00:00:00.000Z")
     
     payload = {
@@ -29,27 +27,42 @@ def fetch_schedule_for_date(target_date: datetime):
         response.raise_for_status()
         return response.json()
     except Exception as e:
-        print(f"Ошибка при получении расписания на {date_str}: {e}")
+        print(f"Ошибка на дату {date_str}: {e}")
         return []
 
 def main():
     today = datetime.now()
     
-    # Скачиваем текущую и следующую неделю
-    current_week_data = fetch_schedule_for_date(today)
-    next_week_data = fetch_schedule_for_date(today + timedelta(days=7))
-    
+    # Стартуем с начала учебного года (первый понедельник сентября)
+    start_year = today.year
+    start_september = datetime(start_year, 9, 1)
+    base_monday = get_monday(start_september)
+    if base_monday.month < 9:
+        base_monday += timedelta(days=7)
+
+    # Скачиваем на 18 недель семестра вперед
+    weeks_data = {}
+    for week_num in range(1, 19):
+        current_monday = base_monday + timedelta(weeks=week_num - 1)
+        monday_key = current_monday.strftime("%Y-%m-%d")
+        print(f"Загрузка недели {week_num} ({monday_key})...")
+        week_schedule = fetch_schedule_for_date(current_monday)
+        weeks_data[monday_key] = {
+            "week_number": week_num,
+            "monday": monday_key,
+            "days": week_schedule
+        }
+
     full_data = {
         "updated_at": today.strftime("%Y-%m-%d %H:%M:%S"),
         "group_id": GROUP_ID,
-        "current_week": current_week_data,
-        "next_week": next_week_data
+        "weeks": weeks_data
     }
     
     with open("schedule.json", "w", encoding="utf-8") as f:
         json.dump(full_data, f, ensure_ascii=False, indent=2)
         
-    print("Расписание успешно сохранено в schedule.json")
+    print("Семестр успешно выгружен в schedule.json")
 
 if __name__ == "__main__":
     main()
