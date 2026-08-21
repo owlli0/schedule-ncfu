@@ -17,16 +17,16 @@
       --accent: #38bdf8;
       
       /* Зеленый фон для лекций */
-      --lecture-bg: rgba(16, 185, 129, 0.14);
-      --lecture-border: rgba(16, 185, 129, 0.4);
+      --lecture-bg: rgba(16, 185, 129, 0.15);
+      --lecture-border: rgba(16, 185, 129, 0.45);
       --lecture-badge: #10b981;
       
       /* Оранжевый фон для практик и лаб */
-      --practice-bg: rgba(245, 158, 11, 0.14);
-      --practice-border: rgba(245, 158, 11, 0.4);
+      --practice-bg: rgba(245, 158, 11, 0.15);
+      --practice-border: rgba(245, 158, 11, 0.45);
       --practice-badge: #f59e0b;
 
-      --default-bg: rgba(255, 255, 255, 0.04);
+      --default-bg: rgba(255, 255, 255, 0.05);
       --default-border: var(--border);
     }
 
@@ -40,7 +40,7 @@
       justify-content: center;
     }
 
-    .container { width: 100%; max-width: 860px; }
+    .container { width: 100%; max-width: 880px; }
 
     header {
       display: flex;
@@ -54,7 +54,7 @@
     h1 { font-size: 1.5rem; font-weight: 700; color: #fff; }
     .updated-text { font-size: 0.8rem; color: var(--text-muted); }
 
-    /* Панель переключения недель */
+    /* Навигация */
     .week-nav-bar {
       display: flex;
       align-items: center;
@@ -96,7 +96,7 @@
       text-align: center;
     }
 
-    /* Карточка дня */
+    /* День */
     .day-card {
       background: var(--card-bg);
       border: 1px solid var(--border);
@@ -116,12 +116,12 @@
     .day-title { font-size: 1.15rem; font-weight: 700; color: #fff; }
     .day-date { font-size: 0.88rem; color: var(--text-muted); }
 
-    /* Блок перерыва */
+    /* Перерыв */
     .break-indicator {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 8px 0;
+      margin: 10px 0;
       color: var(--text-muted);
       font-size: 0.78rem;
       font-weight: 500;
@@ -134,12 +134,12 @@
       margin: 0 10px;
     }
 
-    /* Строка пары */
+    /* Карточка пары */
     .lesson-item {
       display: grid;
       grid-template-columns: 85px 1fr auto;
       align-items: center;
-      gap: 12px;
+      gap: 14px;
       padding: 12px 14px;
       border-radius: 10px;
       margin-bottom: 6px;
@@ -207,6 +207,14 @@
     .badge-prac { background: var(--practice-badge); color: #000; }
     .badge-def { background: rgba(255,255,255,0.2); color: #fff; }
 
+    .subgroup-tag {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
     .room-tag {
       font-weight: 600;
       color: #38bdf8;
@@ -221,7 +229,7 @@
       color: var(--text-muted);
       text-align: right;
       font-weight: 500;
-      max-width: 220px;
+      max-width: 240px;
     }
 
     .empty-day {
@@ -259,36 +267,45 @@
   </div>
 
   <script>
-    // Точное расписание звонков по твоей таблице
-    const PAIR_TIMES = {
-      1: { start: "08:00", end: "09:30", sMin: 480, eMin: 570 },
-      2: { start: "09:40", end: "11:10", sMin: 580, eMin: 670 },
-      3: { start: "11:20", end: "12:50", sMin: 680, eMin: 770 },
-      4: { start: "13:20", end: "14:50", sMin: 800, eMin: 890 },
-      5: { start: "15:00", end: "16:30", sMin: 900, eMin: 990 },
-      6: { start: "16:50", end: "18:20", sMin: 1010, eMin: 1100 },
-      7: { start: "18:30", end: "20:00", sMin: 1110, eMin: 1200 },
-      8: { start: "20:10", end: "21:40", sMin: 1210, eMin: 1300 }
+    // Сетка звонков
+    const CALL_TIMES = {
+      1: { start: "08:00", end: "09:30" },
+      2: { start: "09:40", end: "11:10" },
+      3: { start: "11:20", end: "12:50" },
+      4: { start: "13:20", end: "14:50" },
+      5: { start: "15:00", end: "16:30" },
+      6: { start: "16:50", end: "18:20" },
+      7: { start: "18:30", end: "20:00" },
+      8: { start: "20:10", end: "21:40" }
     };
 
     let scheduleData = null;
     let weekKeys = [];
     let currentWeekIndex = 0;
 
-    // Извлечение безопасного текста из строки или объекта
-    function extractText(val) {
-      if (!val) return '';
-      if (typeof val === 'string') return val.trim();
-      if (typeof val === 'object') {
-        return val.Name || val.FIO || val.ShortName || val.Value || val.Title || '';
+    // Извлечение часов и минут (HH:mm) из ISO даты сервера
+    function extractTime(isoStr, pairNum, isEnd = false) {
+      if (isoStr && isoStr.includes('T')) {
+        const timePart = isoStr.split('T')[1];
+        const [h, m] = timePart.split(':');
+        return `${h}:${m}`;
       }
-      return String(val).trim();
+      if (CALL_TIMES[pairNum]) {
+        return isEnd ? CALL_TIMES[pairNum].end : CALL_TIMES[pairNum].start;
+      }
+      return '—';
     }
 
-    // Разбор корпуса и аудитории (до дефиса - корпус, после - аудитория)
-    function formatLocation(rawVal) {
-      const text = extractText(rawVal);
-      if (!text) return '';
+    function timeToMinutes(timeStr) {
+      if (!timeStr || !timeStr.includes(':')) return 0;
+      const [h, m] = timeStr.split(':').map(Number);
+      return h * 60 + m;
+    }
+
+    // Разбор корпуса и аудитории ("9-3А" -> "Корпус 9, Ауд. 3А")
+    function formatLocation(rawName) {
+      if (!rawName) return '';
+      const text = String(rawName).trim();
       if (text.includes('-')) {
         const parts = text.split('-');
         return `Корпус ${parts[0]}, Ауд. ${parts[1]}`;
@@ -296,7 +313,6 @@
       return `Ауд. ${text}`;
     }
 
-    // Форматирование времени перерыва
     function formatBreak(minutes) {
       if (minutes <= 0) return null;
       if (minutes >= 60) {
@@ -305,16 +321,6 @@
         return `Перерыв ${h} ч ${m > 0 ? m + ' мин' : ''}`;
       }
       return `Перерыв ${minutes} мин`;
-    }
-
-    // Получение номера пары
-    function getPairNumber(lesson, index) {
-      if (lesson.PairNumber) return Number(lesson.PairNumber);
-      if (lesson.Number) return Number(lesson.Number);
-      if (lesson.LessonNumber) return Number(lesson.LessonNumber);
-      if (lesson.Pair) return Number(lesson.Pair);
-      if (lesson.Id && lesson.Id >= 1 && lesson.Id <= 8) return Number(lesson.Id);
-      return index + 1;
     }
 
     async function loadSchedule() {
@@ -407,35 +413,39 @@
         if (!lessons.length) {
           card.innerHTML += '<div class="empty-day">Пар нет</div>';
         } else {
-          // Сортировка по номеру пары
-          lessons.sort((a, b) => getPairNumber(a, 0) - getPairNumber(b, 0));
+          // Сортировка по реальному номеру пары (PairNumberStart)
+          lessons.sort((a, b) => (a.PairNumberStart || 0) - (b.PairNumberStart || 0));
 
-          for (let i = 0; i < lessons.length; i++) {
-            const l = lessons[i];
-            const pairNum = getPairNumber(l, i);
-            const timeInfo = PAIR_TIMES[pairNum] || { start: '08:00', end: '09:30', sMin: 0, eMin: 0 };
-            
-            // Расчет перерыва между парами
-            if (i > 0) {
-              const prevPairNum = getPairNumber(lessons[i - 1], i - 1);
-              const prevTime = PAIR_TIMES[prevPairNum];
-              if (prevTime && timeInfo.sMin) {
-                const diffMin = timeInfo.sMin - prevTime.eMin;
-                if (diffMin > 0) {
-                  const breakDiv = document.createElement('div');
-                  breakDiv.className = 'break-indicator';
-                  breakDiv.textContent = formatBreak(diffMin);
-                  card.appendChild(breakDiv);
-                }
+          let prevEndTimeStr = null;
+
+          lessons.forEach((l, index) => {
+            const pairNum = l.PairNumberStart || (index + 1);
+            const startTimeStr = extractTime(l.TimeBegin, pairNum, false);
+            const endTimeStr = extractTime(l.TimeEnd, pairNum, true);
+
+            // Расчет перерыва относительно предыдущей пары
+            if (prevEndTimeStr) {
+              const prevMin = timeToMinutes(prevEndTimeStr);
+              const currMin = timeToMinutes(startTimeStr);
+              const diffMin = currMin - prevMin;
+
+              // Показываем перерыв, только если пары идут в разное время (не параллельные подгруппы)
+              if (diffMin > 0) {
+                const breakDiv = document.createElement('div');
+                breakDiv.className = 'break-indicator';
+                breakDiv.textContent = formatBreak(diffMin);
+                card.appendChild(breakDiv);
               }
             }
 
+            prevEndTimeStr = endTimeStr;
+
             const item = document.createElement('div');
             
-            const rawType = extractText(l.Type || l.LessonType || l.TypeName || '');
+            // Тип занятия
+            const rawType = (l.LessonType || '').trim();
             const typeLower = rawType.toLowerCase();
 
-            // Зеленый для лекций, оранжевый для практик/лаб
             let typeClass = 'type-other';
             let badgeClass = 'badge-def';
             if (typeLower.includes('лекц')) {
@@ -448,29 +458,36 @@
 
             item.className = `lesson-item ${typeClass}`;
 
-            const roomRaw = l.Auditory || l.Room || l.AuditoryName || l.RoomName || l.Auditorium || '';
-            const roomFormatted = formatLocation(roomRaw);
-            const teacher = extractText(l.Teacher || l.TeacherName || l.TeacherFIO || l.Lecturer || '');
-            const discipline = extractText(l.Discipline || l.DisciplineName || l.Subject || 'Предмет');
+            // Аудитория и преподаватель из вложенных объектов
+            const audName = (l.Aud && l.Aud.Name) ? l.Aud.Name : '';
+            const roomFormatted = formatLocation(audName);
+            const teacherName = (l.Teacher && l.Teacher.Name) ? l.Teacher.Name.trim() : '';
+
+            // Подгруппа
+            let subgroup = '';
+            if (l.Groups && l.Groups[0] && l.Groups[0].Subgroup) {
+              subgroup = l.Groups[0].Subgroup.trim();
+            }
 
             item.innerHTML = `
               <div class="pair-time-block">
                 <span class="pair-num">${pairNum} пара</span>
-                <span class="pair-hours">${timeInfo.start} - ${timeInfo.end}</span>
+                <span class="pair-hours">${startTimeStr} - ${endTimeStr}</span>
               </div>
               <div class="lesson-main">
-                <div class="lesson-title">${discipline}</div>
+                <div class="lesson-title">${l.Discipline || 'Предмет'}</div>
                 <div class="lesson-meta">
                   ${rawType ? `<span class="badge ${badgeClass}">${rawType}</span>` : ''}
+                  ${subgroup ? `<span class="subgroup-tag">Подгруппа ${subgroup}</span>` : ''}
                   ${roomFormatted ? `<span class="room-tag">📍 ${roomFormatted}</span>` : ''}
                 </div>
               </div>
               <div class="teacher-block">
-                ${teacher ? `👤 ${teacher}` : ''}
+                ${teacherName ? `👤 ${teacherName}` : ''}
               </div>
             `;
             card.appendChild(item);
-          }
+          });
         }
 
         container.appendChild(card);
