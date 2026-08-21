@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Расписание ИНС-б-о-26-2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+      --badge-lecture: #3b82f6;
+      --badge-practice: #10b981;
+      --badge-lab: #f59e0b;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 20px 16px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container { width: 100%; max-width: 800px; }
+
+    header {
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    h1 { font-size: 1.5rem; font-weight: 700; color: #fff; }
+    .updated-text { font-size: 0.8rem; color: var(--text-muted); }
+
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      background: var(--card-bg);
+      padding: 4px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
+    .tab-btn {
+      flex: 1;
+      padding: 10px 16px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .tab-btn.active {
+      background: var(--accent);
+      color: #0f172a;
+    }
+
+    .day-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .day-header {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      color: var(--accent);
+    }
+
+    .lesson-item {
+      display: flex;
+      gap: 14px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .lesson-item:last-child { border-bottom: none; }
+
+    .lesson-time {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      min-width: 55px;
+    }
+
+    .lesson-content { flex: 1; }
+    .lesson-title { font-weight: 600; font-size: 0.95rem; margin-bottom: 4px; }
+    
+    .lesson-meta {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+    }
+
+    .empty-day { color: var(--text-muted); font-size: 0.9rem; font-style: italic; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>ИНС-б-о-26-2</h1>
+        <div id="updatedAt" class="updated-text">Загрузка...</div>
+      </div>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchWeek('current')">Текущая неделя</button>
+      <button class="tab-btn" onclick="switchWeek('next')">Следующая неделя</button>
+    </div>
+
+    <div id="scheduleContainer"></div>
+  </div>
+
+  <script>
+    let scheduleData = null;
+    let currentTab = 'current';
+
+    async function loadSchedule() {
+      try {
+        const res = await fetch('schedule.json?t=' + new Date().getTime());
+        scheduleData = await res.json();
+        document.getElementById('updatedAt').innerText = 'Обновлено: ' + scheduleData.updated_at;
+        renderWeek(currentTab);
+      } catch (err) {
+        document.getElementById('scheduleContainer').innerHTML = 
+          '<div style="color: #ef4444; padding: 20px; text-align: center;">Не удалось загрузить schedule.json. Убедитесь, что GitHub Action уже выполнил сбор данных.</div>';
+      }
+    }
+
+    function switchWeek(type) {
+      currentTab = type;
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+      renderWeek(type);
+    }
+
+    function renderWeek(type) {
+      if (!scheduleData) return;
+      const days = type === 'current' ? scheduleData.current_week : scheduleData.next_week;
+      const container = document.getElementById('scheduleContainer');
+      container.innerHTML = '';
+
+      if (!days || days.length === 0) {
+        container.innerHTML = '<div class="day-card empty-day">Расписание на эту неделю отсутствует</div>';
+        return;
+      }
+
+      days.forEach(day => {
+        const card = document.createElement('div');
+        card.className = 'day-card';
+
+        const dateStr = day.Date ? new Date(day.Date).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long' }) : '';
+        card.innerHTML = `<div class="day-header"><span>${day.WeekDay \vert{}\vert{} 'День'}</span> <span>${dateStr}</span></div>`;
+
+        if (!day.Lessons || day.Lessons.length === 0) {
+          card.innerHTML += '<div class="empty-day">Пар нет</div>';
+        } else {
+          day.Lessons.forEach(l => {
+            const item = document.createElement('div');
+            item.className = 'lesson-item';
+            
+            const pairNum = l.LessonNumber || l.Id || '•';
+            const teacher = l.Teacher || l.TeacherName || '';
+            const room = l.Room || l.Auditory || '';
+            const type = l.Type || l.LessonType || '';
+
+            item.innerHTML = `
+              <div class="lesson-time">${pairNum} пара</div>
+              <div class="lesson-content">
+                <div class="lesson-title">${l.Discipline || 'Предмет'}</div>
+                <div class="lesson-meta">
+                  ${type ? `<span class="badge">${type}</span>` : ''}
+                  ${room ? `<span>📍 ${room}</span>` : ''}
+                  ${teacher ? `<span>👤 ${teacher}</span>` : ''}
+                </div>
+              </div>
+            `;
+            card.appendChild(item);
+          });
+        }
+
+        container.appendChild(card);
+      });
+    }
+
+    loadSchedule();
+  </script>
+</body>
+</html>
