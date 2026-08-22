@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21 14:24:00",
+  "updated_at": "2026-08-22 02:08:46",
   "group_id": 19931,
   "weeks": {
     "2026-09-07": {
@@ -6513,7 +6513,568 @@
     "2026-11-23": {
       "week_number": 12,
       "monday": "2026-11-23",
-      "days": []
+      "days": [
+        {
+          "Id": 1,
+          "WeekDay": "Понедельник",
+          "Date": "2026-11-23T00:00:00",
+          "Lessons": [
+            {
+              "Id": 1,
+              "LessonDayId": 1,
+              "TeacherId": 525069,
+              "RoomId": 2331,
+              "Discipline": "История России",
+              "TimeBegin": "2026-11-23T09:40:00",
+              "TimeEnd": "2026-11-23T11:10:00",
+              "Aud": {
+                "Id": 2331,
+                "Name": "1-401"
+              },
+              "LessonType": "Лекция                                                                                                                                                                                                                                                    ",
+              "PairNumberStart": 2,
+              "PairNumberEnd": 2,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 525069,
+                "Name": "д.и.н. Любушкина Елена Юрьевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 1,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 2,
+              "LessonDayId": 1,
+              "TeacherId": 618353,
+              "RoomId": 2337,
+              "Discipline": "Основы российской государственности",
+              "TimeBegin": "2026-11-23T11:20:00",
+              "TimeEnd": "2026-11-23T12:50:00",
+              "Aud": {
+                "Id": 2337,
+                "Name": "1-418"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 3,
+              "PairNumberEnd": 3,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 618353,
+                "Name": "к.ф.н. Хачатрян Лилит Вачагановна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 2,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 3,
+              "LessonDayId": 1,
+              "TeacherId": 0,
+              "RoomId": 2278,
+              "Discipline": "История России",
+              "TimeBegin": "2026-11-23T13:20:00",
+              "TimeEnd": "2026-11-23T14:50:00",
+              "Aud": {
+                "Id": 2278,
+                "Name": "2-222"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 4,
+              "PairNumberEnd": 4,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": null,
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 3,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "WeekDay": "Вторник",
+          "Date": "2026-11-24T00:00:00",
+          "Lessons": [
+            {
+              "Id": 4,
+              "LessonDayId": 2,
+              "TeacherId": 618353,
+              "RoomId": 5661,
+              "Discipline": "Основы российской государственности",
+              "TimeBegin": "2026-11-24T09:40:00",
+              "TimeEnd": "2026-11-24T11:10:00",
+              "Aud": {
+                "Id": 5661,
+                "Name": "9-1А"
+              },
+              "LessonType": "Лекция                                                                                                                                                                                                                                                    ",
+              "PairNumberStart": 2,
+              "PairNumberEnd": 2,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 618353,
+                "Name": "к.ф.н. Хачатрян Лилит Вачагановна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 4,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 5,
+              "LessonDayId": 2,
+              "TeacherId": 29867,
+              "RoomId": 1694,
+              "Discipline": "Физика",
+              "TimeBegin": "2026-11-24T11:20:00",
+              "TimeEnd": "2026-11-24T12:50:00",
+              "Aud": {
+                "Id": 1694,
+                "Name": "9-3А"
+              },
+              "LessonType": "Лекция                                                                                                                                                                                                                                                    ",
+              "PairNumberStart": 3,
+              "PairNumberEnd": 3,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 29867,
+                "Name": "д.т.н. Мартенс Владимир Яковлевич"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 5,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 6,
+              "LessonDayId": 2,
+              "TeacherId": 740998,
+              "RoomId": 1620,
+              "Discipline": "Информационные технологии и программирование",
+              "TimeBegin": "2026-11-24T13:20:00",
+              "TimeEnd": "2026-11-24T14:50:00",
+              "Aud": {
+                "Id": 1620,
+                "Name": "9-510"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 4,
+              "PairNumberEnd": 4,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 740998,
+                "Name": " Бакунов Артем Андреевич"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 6,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 7,
+              "LessonDayId": 2,
+              "TeacherId": 634587,
+              "RoomId": 1596,
+              "Discipline": "Персональная кибербезопасность",
+              "TimeBegin": "2026-11-24T15:00:00",
+              "TimeEnd": "2026-11-24T16:30:00",
+              "Aud": {
+                "Id": 1596,
+                "Name": "9-502"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 5,
+              "PairNumberEnd": 5,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 634587,
+                "Name": "к.т.н. Ванина Анна Георгиевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 7,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "WeekDay": "Среда",
+          "Date": "2026-11-25T00:00:00",
+          "Lessons": [
+            {
+              "Id": 8,
+              "LessonDayId": 3,
+              "TeacherId": 339292,
+              "RoomId": 1820,
+              "Discipline": "Информационные технологии и программирование",
+              "TimeBegin": "2026-11-25T11:20:00",
+              "TimeEnd": "2026-11-25T12:50:00",
+              "Aud": {
+                "Id": 1820,
+                "Name": "9-516"
+              },
+              "LessonType": "Лекция                                                                                                                                                                                                                                                    ",
+              "PairNumberStart": 3,
+              "PairNumberEnd": 3,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 339292,
+                "Name": " Березина Виктория Андреевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 8,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 9,
+              "LessonDayId": 3,
+              "TeacherId": 30812,
+              "RoomId": 1607,
+              "Discipline": "Английский язык",
+              "TimeBegin": "2026-11-25T13:20:00",
+              "TimeEnd": "2026-11-25T14:50:00",
+              "Aud": {
+                "Id": 1607,
+                "Name": "9-421"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 4,
+              "PairNumberEnd": 4,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 30812,
+                "Name": " Щербинина Ольга Викторовна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 9,
+                  "Subgroup": "(2)",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 10,
+              "LessonDayId": 3,
+              "TeacherId": 541943,
+              "RoomId": 2241,
+              "Discipline": "Английский язык",
+              "TimeBegin": "2026-11-25T13:20:00",
+              "TimeEnd": "2026-11-25T14:50:00",
+              "Aud": {
+                "Id": 2241,
+                "Name": "9-422"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 4,
+              "PairNumberEnd": 4,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 541943,
+                "Name": "к.фил.н. Елисеева Юлия Владимировна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 10,
+                  "Subgroup": "(1)",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 11,
+              "LessonDayId": 3,
+              "TeacherId": 574294,
+              "RoomId": 5501,
+              "Discipline": "Цифровая грамотность и обработка данных",
+              "TimeBegin": "2026-11-25T15:00:00",
+              "TimeEnd": "2026-11-25T16:30:00",
+              "Aud": {
+                "Id": 5501,
+                "Name": "22-309"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 5,
+              "PairNumberEnd": 5,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 574294,
+                "Name": "к.п.н. Жук Елена Павловна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 11,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "WeekDay": "Четверг",
+          "Date": "2026-11-26T00:00:00",
+          "Lessons": [
+            {
+              "Id": 12,
+              "LessonDayId": 4,
+              "TeacherId": 29978,
+              "RoomId": 1334,
+              "Discipline": "Алгебра",
+              "TimeBegin": "2026-11-26T08:00:00",
+              "TimeEnd": "2026-11-26T09:30:00",
+              "Aud": {
+                "Id": 1334,
+                "Name": "9-428А"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 1,
+              "PairNumberEnd": 1,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 29978,
+                "Name": "к.ф.-м.н. Крахоткина Елена Васильевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 12,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 13,
+              "LessonDayId": 4,
+              "TeacherId": 29978,
+              "RoomId": 5661,
+              "Discipline": "Алгебра",
+              "TimeBegin": "2026-11-26T09:40:00",
+              "TimeEnd": "2026-11-26T11:10:00",
+              "Aud": {
+                "Id": 5661,
+                "Name": "9-1А"
+              },
+              "LessonType": "Лекция                                                                                                                                                                                                                                                    ",
+              "PairNumberStart": 2,
+              "PairNumberEnd": 2,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 29978,
+                "Name": "к.ф.-м.н. Крахоткина Елена Васильевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 13,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "WeekDay": "Пятница",
+          "Date": "2026-11-27T00:00:00",
+          "Lessons": [
+            {
+              "Id": 14,
+              "LessonDayId": 5,
+              "TeacherId": 679561,
+              "RoomId": 2281,
+              "Discipline": "Физика",
+              "TimeBegin": "2026-11-27T08:00:00",
+              "TimeEnd": "2026-11-27T09:30:00",
+              "Aud": {
+                "Id": 2281,
+                "Name": "2-230"
+              },
+              "LessonType": "Лабораторная работа                                                                                                                                                                                                                                       ",
+              "PairNumberStart": 1,
+              "PairNumberEnd": 1,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 679561,
+                "Name": " Боженко Софья Александровна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 14,
+                  "Subgroup": "(1)",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 15,
+              "LessonDayId": 5,
+              "TeacherId": 29978,
+              "RoomId": 2269,
+              "Discipline": "Математический анализ",
+              "TimeBegin": "2026-11-27T09:40:00",
+              "TimeEnd": "2026-11-27T11:10:00",
+              "Aud": {
+                "Id": 2269,
+                "Name": "2-212"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 2,
+              "PairNumberEnd": 2,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 29978,
+                "Name": "к.ф.-м.н. Крахоткина Елена Васильевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 15,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 16,
+              "LessonDayId": 5,
+              "TeacherId": 679561,
+              "RoomId": 2281,
+              "Discipline": "Физика",
+              "TimeBegin": "2026-11-27T11:20:00",
+              "TimeEnd": "2026-11-27T12:50:00",
+              "Aud": {
+                "Id": 2281,
+                "Name": "2-230"
+              },
+              "LessonType": "Лабораторная работа                                                                                                                                                                                                                                       ",
+              "PairNumberStart": 3,
+              "PairNumberEnd": 3,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 679561,
+                "Name": " Боженко Софья Александровна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 16,
+                  "Subgroup": "(2)",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            }
+          ]
+        }
+      ]
     },
     "2026-11-30": {
       "week_number": 13,
