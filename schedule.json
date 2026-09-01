@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31 06:23:59",
+  "updated_at": "2026-09-01 05:51:41",
   "group_id": 19931,
   "weeks": {
     "2026-09-07": {
@@ -113,7 +113,7 @@
             {
               "Id": 4,
               "LessonDayId": 1,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-09-07T16:50:00",
@@ -127,12 +127,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 4,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -633,7 +636,7 @@
             {
               "Id": 19,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-09-11T16:50:00",
@@ -647,12 +650,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 19,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -1262,7 +1268,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-09-18T16:50:00",
@@ -1276,7 +1282,10 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
@@ -1404,7 +1413,7 @@
             {
               "Id": 4,
               "LessonDayId": 1,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-09-21T16:50:00",
@@ -1418,12 +1427,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 4,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -1891,7 +1903,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-09-25T16:50:00",
@@ -1905,12 +1917,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 18,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -2520,7 +2535,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-10-02T16:50:00",
@@ -2534,7 +2549,10 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
@@ -2662,7 +2680,7 @@
             {
               "Id": 4,
               "LessonDayId": 1,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-10-05T16:50:00",
@@ -2676,12 +2694,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 4,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -3182,7 +3203,7 @@
             {
               "Id": 19,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-10-09T16:50:00",
@@ -3196,12 +3217,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 19,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -3811,7 +3835,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-10-16T16:50:00",
@@ -3825,7 +3849,10 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
@@ -3953,7 +3980,7 @@
             {
               "Id": 4,
               "LessonDayId": 1,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-10-19T16:50:00",
@@ -3967,12 +3994,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 4,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -4440,7 +4470,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-10-23T16:50:00",
@@ -4454,12 +4484,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 18,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -5069,7 +5102,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-10-30T16:50:00",
@@ -5083,7 +5116,10 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
@@ -5211,7 +5247,7 @@
             {
               "Id": 4,
               "LessonDayId": 1,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-11-02T16:50:00",
@@ -5225,12 +5261,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 4,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -5731,7 +5770,7 @@
             {
               "Id": 19,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-11-06T16:50:00",
@@ -5745,12 +5784,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 19,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -6360,7 +6402,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-11-13T16:50:00",
@@ -6374,7 +6416,10 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
@@ -6502,7 +6547,7 @@
             {
               "Id": 4,
               "LessonDayId": 1,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-11-16T16:50:00",
@@ -6516,12 +6561,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 4,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -6989,7 +7037,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-11-20T16:50:00",
@@ -7003,12 +7051,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 18,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -7585,7 +7636,7 @@
             {
               "Id": 17,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-11-27T16:50:00",
@@ -7599,7 +7650,10 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
@@ -7727,7 +7781,7 @@
             {
               "Id": 4,
               "LessonDayId": 1,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-11-30T16:50:00",
@@ -7741,12 +7795,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 4,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -8214,7 +8271,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-12-04T16:50:00",
@@ -8228,12 +8285,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 18,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -8810,7 +8870,7 @@
             {
               "Id": 17,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-12-11T16:50:00",
@@ -8824,7 +8884,10 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
@@ -8952,7 +9015,7 @@
             {
               "Id": 4,
               "LessonDayId": 1,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-12-14T16:50:00",
@@ -8966,12 +9029,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 4,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -9439,7 +9505,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-12-18T16:50:00",
@@ -9453,12 +9519,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 18,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -10035,7 +10104,7 @@
             {
               "Id": 17,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-12-25T16:50:00",
@@ -10049,7 +10118,10 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
@@ -10177,7 +10249,7 @@
             {
               "Id": 4,
               "LessonDayId": 1,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2026-12-28T16:50:00",
@@ -10191,12 +10263,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 4,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -10664,7 +10739,7 @@
             {
               "Id": 18,
               "LessonDayId": 5,
-              "TeacherId": 0,
+              "TeacherId": 809398,
               "RoomId": 5462,
               "Discipline": "Введение в DevOps",
               "TimeBegin": "2027-01-01T16:50:00",
@@ -10678,12 +10753,15 @@
               "PairNumberEnd": 6,
               "WeekDay": null,
               "SubGroups": null,
-              "Teacher": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
               "AcademicGroup": null,
               "Groups": [
                 {
                   "LessonId": 18,
-                  "Subgroup": "",
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
