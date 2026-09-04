@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03 05:20:30",
+  "updated_at": "2026-09-04 05:14:13",
   "group_id": 19931,
   "weeks": {
     "2026-09-07": {
@@ -109,39 +109,6 @@
               ],
               "Current": false,
               "LessonName": "пара"
-            },
-            {
-              "Id": 4,
-              "LessonDayId": 1,
-              "TeacherId": 809398,
-              "RoomId": 5462,
-              "Discipline": "Введение в DevOps",
-              "TimeBegin": "2026-09-07T16:50:00",
-              "TimeEnd": "2026-09-07T18:20:00",
-              "Aud": {
-                "Id": -1,
-                "Name": "ВКС"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 6,
-              "PairNumberEnd": 6,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 809398,
-                "Name": " Козлова Алина Дмитриевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 4,
-                  "Subgroup": "(1, 2)",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
             }
           ]
         },
@@ -151,7 +118,7 @@
           "Date": "2026-09-08T00:00:00",
           "Lessons": [
             {
-              "Id": 5,
+              "Id": 4,
               "LessonDayId": 2,
               "TeacherId": 740998,
               "RoomId": 5501,
@@ -174,7 +141,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 5,
+                  "LessonId": 4,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -184,7 +151,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 6,
+              "Id": 5,
               "LessonDayId": 2,
               "TeacherId": 574288,
               "RoomId": 1620,
@@ -207,7 +174,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 6,
+                  "LessonId": 5,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -217,7 +184,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 7,
+              "Id": 6,
               "LessonDayId": 2,
               "TeacherId": 634587,
               "RoomId": 1596,
@@ -240,7 +207,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 7,
+                  "LessonId": 6,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -257,7 +224,7 @@
           "Date": "2026-09-09T00:00:00",
           "Lessons": [
             {
-              "Id": 8,
+              "Id": 7,
               "LessonDayId": 3,
               "TeacherId": 270402,
               "RoomId": 1694,
@@ -280,7 +247,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 8,
+                  "LessonId": 7,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -290,7 +257,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 9,
+              "Id": 8,
               "LessonDayId": 3,
               "TeacherId": 614145,
               "RoomId": 1653,
@@ -313,7 +280,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 9,
+                  "LessonId": 8,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -323,7 +290,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 10,
+              "Id": 9,
               "LessonDayId": 3,
               "TeacherId": 30812,
               "RoomId": 1607,
@@ -346,7 +313,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 10,
+                  "LessonId": 9,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -356,7 +323,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 11,
+              "Id": 10,
               "LessonDayId": 3,
               "TeacherId": 541943,
               "RoomId": 2241,
@@ -379,7 +346,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 11,
+                  "LessonId": 10,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -389,7 +356,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 12,
+              "Id": 11,
               "LessonDayId": 3,
               "TeacherId": 574294,
               "RoomId": 5501,
@@ -412,7 +379,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 12,
+                  "LessonId": 11,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -429,7 +396,7 @@
           "Date": "2026-09-10T00:00:00",
           "Lessons": [
             {
-              "Id": 13,
+              "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 626435,
               "RoomId": 1652,
@@ -452,7 +419,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 13,
+                  "LessonId": 12,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -462,7 +429,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 14,
+              "Id": 13,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -485,7 +452,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 14,
+                  "LessonId": 13,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -495,7 +462,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 15,
+              "Id": 14,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -518,8 +485,41 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 15,
+                  "LessonId": 14,
                   "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 15,
+              "LessonDayId": 4,
+              "TeacherId": 809398,
+              "RoomId": 5462,
+              "Discipline": "Введение в DevOps",
+              "TimeBegin": "2026-09-10T18:30:00",
+              "TimeEnd": "2026-09-10T20:00:00",
+              "Aud": {
+                "Id": -1,
+                "Name": "ВКС"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 7,
+              "PairNumberEnd": 7,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 15,
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -1409,39 +1409,6 @@
               ],
               "Current": false,
               "LessonName": "пара"
-            },
-            {
-              "Id": 4,
-              "LessonDayId": 1,
-              "TeacherId": 809398,
-              "RoomId": 5462,
-              "Discipline": "Введение в DevOps",
-              "TimeBegin": "2026-09-21T16:50:00",
-              "TimeEnd": "2026-09-21T18:20:00",
-              "Aud": {
-                "Id": -1,
-                "Name": "ВКС"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 6,
-              "PairNumberEnd": 6,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 809398,
-                "Name": " Козлова Алина Дмитриевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 4,
-                  "Subgroup": "(1, 2)",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
             }
           ]
         },
@@ -1451,7 +1418,7 @@
           "Date": "2026-09-22T00:00:00",
           "Lessons": [
             {
-              "Id": 5,
+              "Id": 4,
               "LessonDayId": 2,
               "TeacherId": 740998,
               "RoomId": 5501,
@@ -1474,7 +1441,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 5,
+                  "LessonId": 4,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -1484,7 +1451,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 6,
+              "Id": 5,
               "LessonDayId": 2,
               "TeacherId": 574288,
               "RoomId": 1620,
@@ -1507,7 +1474,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 6,
+                  "LessonId": 5,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -1517,7 +1484,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 7,
+              "Id": 6,
               "LessonDayId": 2,
               "TeacherId": 634587,
               "RoomId": 1596,
@@ -1540,7 +1507,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 7,
+                  "LessonId": 6,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -1557,7 +1524,7 @@
           "Date": "2026-09-23T00:00:00",
           "Lessons": [
             {
-              "Id": 8,
+              "Id": 7,
               "LessonDayId": 3,
               "TeacherId": 614145,
               "RoomId": 1653,
@@ -1580,7 +1547,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 8,
+                  "LessonId": 7,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -1590,7 +1557,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 9,
+              "Id": 8,
               "LessonDayId": 3,
               "TeacherId": 30812,
               "RoomId": 1607,
@@ -1613,7 +1580,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 9,
+                  "LessonId": 8,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -1623,7 +1590,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 10,
+              "Id": 9,
               "LessonDayId": 3,
               "TeacherId": 541943,
               "RoomId": 2241,
@@ -1646,7 +1613,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 10,
+                  "LessonId": 9,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -1656,7 +1623,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 11,
+              "Id": 10,
               "LessonDayId": 3,
               "TeacherId": 574294,
               "RoomId": 5501,
@@ -1679,7 +1646,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 11,
+                  "LessonId": 10,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -1696,7 +1663,7 @@
           "Date": "2026-09-24T00:00:00",
           "Lessons": [
             {
-              "Id": 12,
+              "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
               "RoomId": 1652,
@@ -1719,7 +1686,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 12,
+                  "LessonId": 11,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -1729,7 +1696,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 13,
+              "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -1752,7 +1719,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 13,
+                  "LessonId": 12,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -1762,7 +1729,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 14,
+              "Id": 13,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -1785,8 +1752,41 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 14,
+                  "LessonId": 13,
                   "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 14,
+              "LessonDayId": 4,
+              "TeacherId": 809398,
+              "RoomId": 5462,
+              "Discipline": "Введение в DevOps",
+              "TimeBegin": "2026-09-24T18:30:00",
+              "TimeEnd": "2026-09-24T20:00:00",
+              "Aud": {
+                "Id": -1,
+                "Name": "ВКС"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 7,
+              "PairNumberEnd": 7,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 14,
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -2676,39 +2676,6 @@
               ],
               "Current": false,
               "LessonName": "пара"
-            },
-            {
-              "Id": 4,
-              "LessonDayId": 1,
-              "TeacherId": 809398,
-              "RoomId": 5462,
-              "Discipline": "Введение в DevOps",
-              "TimeBegin": "2026-10-05T16:50:00",
-              "TimeEnd": "2026-10-05T18:20:00",
-              "Aud": {
-                "Id": -1,
-                "Name": "ВКС"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 6,
-              "PairNumberEnd": 6,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 809398,
-                "Name": " Козлова Алина Дмитриевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 4,
-                  "Subgroup": "(1, 2)",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
             }
           ]
         },
@@ -2718,7 +2685,7 @@
           "Date": "2026-10-06T00:00:00",
           "Lessons": [
             {
-              "Id": 5,
+              "Id": 4,
               "LessonDayId": 2,
               "TeacherId": 740998,
               "RoomId": 5501,
@@ -2741,7 +2708,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 5,
+                  "LessonId": 4,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -2751,7 +2718,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 6,
+              "Id": 5,
               "LessonDayId": 2,
               "TeacherId": 574288,
               "RoomId": 1620,
@@ -2774,7 +2741,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 6,
+                  "LessonId": 5,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -2784,7 +2751,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 7,
+              "Id": 6,
               "LessonDayId": 2,
               "TeacherId": 634587,
               "RoomId": 1596,
@@ -2807,7 +2774,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 7,
+                  "LessonId": 6,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -2824,7 +2791,7 @@
           "Date": "2026-10-07T00:00:00",
           "Lessons": [
             {
-              "Id": 8,
+              "Id": 7,
               "LessonDayId": 3,
               "TeacherId": 270402,
               "RoomId": 1694,
@@ -2847,7 +2814,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 8,
+                  "LessonId": 7,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -2857,7 +2824,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 9,
+              "Id": 8,
               "LessonDayId": 3,
               "TeacherId": 614145,
               "RoomId": 1653,
@@ -2880,7 +2847,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 9,
+                  "LessonId": 8,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -2890,7 +2857,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 10,
+              "Id": 9,
               "LessonDayId": 3,
               "TeacherId": 30812,
               "RoomId": 1607,
@@ -2913,7 +2880,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 10,
+                  "LessonId": 9,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -2923,7 +2890,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 11,
+              "Id": 10,
               "LessonDayId": 3,
               "TeacherId": 541943,
               "RoomId": 2241,
@@ -2946,7 +2913,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 11,
+                  "LessonId": 10,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -2956,7 +2923,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 12,
+              "Id": 11,
               "LessonDayId": 3,
               "TeacherId": 574294,
               "RoomId": 5501,
@@ -2979,7 +2946,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 12,
+                  "LessonId": 11,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -2996,7 +2963,7 @@
           "Date": "2026-10-08T00:00:00",
           "Lessons": [
             {
-              "Id": 13,
+              "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 626435,
               "RoomId": 1652,
@@ -3019,7 +2986,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 13,
+                  "LessonId": 12,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -3029,7 +2996,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 14,
+              "Id": 13,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -3052,7 +3019,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 14,
+                  "LessonId": 13,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -3062,7 +3029,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 15,
+              "Id": 14,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -3085,8 +3052,41 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 15,
+                  "LessonId": 14,
                   "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 15,
+              "LessonDayId": 4,
+              "TeacherId": 809398,
+              "RoomId": 5462,
+              "Discipline": "Введение в DevOps",
+              "TimeBegin": "2026-10-08T18:30:00",
+              "TimeEnd": "2026-10-08T20:00:00",
+              "Aud": {
+                "Id": -1,
+                "Name": "ВКС"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 7,
+              "PairNumberEnd": 7,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 15,
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -3976,39 +3976,6 @@
               ],
               "Current": false,
               "LessonName": "пара"
-            },
-            {
-              "Id": 4,
-              "LessonDayId": 1,
-              "TeacherId": 809398,
-              "RoomId": 5462,
-              "Discipline": "Введение в DevOps",
-              "TimeBegin": "2026-10-19T16:50:00",
-              "TimeEnd": "2026-10-19T18:20:00",
-              "Aud": {
-                "Id": -1,
-                "Name": "ВКС"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 6,
-              "PairNumberEnd": 6,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 809398,
-                "Name": " Козлова Алина Дмитриевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 4,
-                  "Subgroup": "(1, 2)",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
             }
           ]
         },
@@ -4018,7 +3985,7 @@
           "Date": "2026-10-20T00:00:00",
           "Lessons": [
             {
-              "Id": 5,
+              "Id": 4,
               "LessonDayId": 2,
               "TeacherId": 740998,
               "RoomId": 5501,
@@ -4041,7 +4008,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 5,
+                  "LessonId": 4,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -4051,7 +4018,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 6,
+              "Id": 5,
               "LessonDayId": 2,
               "TeacherId": 574288,
               "RoomId": 1620,
@@ -4074,7 +4041,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 6,
+                  "LessonId": 5,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -4084,7 +4051,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 7,
+              "Id": 6,
               "LessonDayId": 2,
               "TeacherId": 634587,
               "RoomId": 1596,
@@ -4107,7 +4074,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 7,
+                  "LessonId": 6,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -4124,7 +4091,7 @@
           "Date": "2026-10-21T00:00:00",
           "Lessons": [
             {
-              "Id": 8,
+              "Id": 7,
               "LessonDayId": 3,
               "TeacherId": 614145,
               "RoomId": 1653,
@@ -4147,7 +4114,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 8,
+                  "LessonId": 7,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -4157,7 +4124,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 9,
+              "Id": 8,
               "LessonDayId": 3,
               "TeacherId": 30812,
               "RoomId": 1607,
@@ -4180,7 +4147,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 9,
+                  "LessonId": 8,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -4190,7 +4157,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 10,
+              "Id": 9,
               "LessonDayId": 3,
               "TeacherId": 541943,
               "RoomId": 2241,
@@ -4213,7 +4180,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 10,
+                  "LessonId": 9,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -4223,7 +4190,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 11,
+              "Id": 10,
               "LessonDayId": 3,
               "TeacherId": 574294,
               "RoomId": 5501,
@@ -4246,7 +4213,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 11,
+                  "LessonId": 10,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -4263,7 +4230,7 @@
           "Date": "2026-10-22T00:00:00",
           "Lessons": [
             {
-              "Id": 12,
+              "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
               "RoomId": 1652,
@@ -4286,7 +4253,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 12,
+                  "LessonId": 11,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -4296,7 +4263,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 13,
+              "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -4319,7 +4286,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 13,
+                  "LessonId": 12,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -4329,7 +4296,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 14,
+              "Id": 13,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -4352,8 +4319,41 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 14,
+                  "LessonId": 13,
                   "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 14,
+              "LessonDayId": 4,
+              "TeacherId": 809398,
+              "RoomId": 5462,
+              "Discipline": "Введение в DevOps",
+              "TimeBegin": "2026-10-22T18:30:00",
+              "TimeEnd": "2026-10-22T20:00:00",
+              "Aud": {
+                "Id": -1,
+                "Name": "ВКС"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 7,
+              "PairNumberEnd": 7,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 14,
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -5243,39 +5243,6 @@
               ],
               "Current": false,
               "LessonName": "пара"
-            },
-            {
-              "Id": 4,
-              "LessonDayId": 1,
-              "TeacherId": 809398,
-              "RoomId": 5462,
-              "Discipline": "Введение в DevOps",
-              "TimeBegin": "2026-11-02T16:50:00",
-              "TimeEnd": "2026-11-02T18:20:00",
-              "Aud": {
-                "Id": -1,
-                "Name": "ВКС"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 6,
-              "PairNumberEnd": 6,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 809398,
-                "Name": " Козлова Алина Дмитриевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 4,
-                  "Subgroup": "(1, 2)",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
             }
           ]
         },
@@ -5285,7 +5252,7 @@
           "Date": "2026-11-03T00:00:00",
           "Lessons": [
             {
-              "Id": 5,
+              "Id": 4,
               "LessonDayId": 2,
               "TeacherId": 740998,
               "RoomId": 5501,
@@ -5308,7 +5275,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 5,
+                  "LessonId": 4,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -5318,7 +5285,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 6,
+              "Id": 5,
               "LessonDayId": 2,
               "TeacherId": 574288,
               "RoomId": 1620,
@@ -5341,7 +5308,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 6,
+                  "LessonId": 5,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -5351,7 +5318,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 7,
+              "Id": 6,
               "LessonDayId": 2,
               "TeacherId": 634587,
               "RoomId": 1596,
@@ -5374,7 +5341,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 7,
+                  "LessonId": 6,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -5391,7 +5358,7 @@
           "Date": "2026-11-04T00:00:00",
           "Lessons": [
             {
-              "Id": 8,
+              "Id": 7,
               "LessonDayId": 3,
               "TeacherId": 270402,
               "RoomId": 1694,
@@ -5414,7 +5381,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 8,
+                  "LessonId": 7,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -5424,7 +5391,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 9,
+              "Id": 8,
               "LessonDayId": 3,
               "TeacherId": 614145,
               "RoomId": 1653,
@@ -5447,7 +5414,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 9,
+                  "LessonId": 8,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -5457,7 +5424,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 10,
+              "Id": 9,
               "LessonDayId": 3,
               "TeacherId": 30812,
               "RoomId": 1607,
@@ -5480,7 +5447,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 10,
+                  "LessonId": 9,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -5490,7 +5457,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 11,
+              "Id": 10,
               "LessonDayId": 3,
               "TeacherId": 541943,
               "RoomId": 2241,
@@ -5513,7 +5480,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 11,
+                  "LessonId": 10,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -5523,7 +5490,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 12,
+              "Id": 11,
               "LessonDayId": 3,
               "TeacherId": 574294,
               "RoomId": 5501,
@@ -5546,7 +5513,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 12,
+                  "LessonId": 11,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -5563,7 +5530,7 @@
           "Date": "2026-11-05T00:00:00",
           "Lessons": [
             {
-              "Id": 13,
+              "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 626435,
               "RoomId": 1652,
@@ -5586,7 +5553,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 13,
+                  "LessonId": 12,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -5596,7 +5563,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 14,
+              "Id": 13,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -5619,7 +5586,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 14,
+                  "LessonId": 13,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -5629,7 +5596,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 15,
+              "Id": 14,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -5652,8 +5619,41 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 15,
+                  "LessonId": 14,
                   "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 15,
+              "LessonDayId": 4,
+              "TeacherId": 809398,
+              "RoomId": 5462,
+              "Discipline": "Введение в DevOps",
+              "TimeBegin": "2026-11-05T18:30:00",
+              "TimeEnd": "2026-11-05T20:00:00",
+              "Aud": {
+                "Id": -1,
+                "Name": "ВКС"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 7,
+              "PairNumberEnd": 7,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 15,
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -6543,39 +6543,6 @@
               ],
               "Current": false,
               "LessonName": "пара"
-            },
-            {
-              "Id": 4,
-              "LessonDayId": 1,
-              "TeacherId": 809398,
-              "RoomId": 5462,
-              "Discipline": "Введение в DevOps",
-              "TimeBegin": "2026-11-16T16:50:00",
-              "TimeEnd": "2026-11-16T18:20:00",
-              "Aud": {
-                "Id": -1,
-                "Name": "ВКС"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 6,
-              "PairNumberEnd": 6,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 809398,
-                "Name": " Козлова Алина Дмитриевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 4,
-                  "Subgroup": "(1, 2)",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
             }
           ]
         },
@@ -6585,7 +6552,7 @@
           "Date": "2026-11-17T00:00:00",
           "Lessons": [
             {
-              "Id": 5,
+              "Id": 4,
               "LessonDayId": 2,
               "TeacherId": 740998,
               "RoomId": 5501,
@@ -6608,7 +6575,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 5,
+                  "LessonId": 4,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -6618,7 +6585,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 6,
+              "Id": 5,
               "LessonDayId": 2,
               "TeacherId": 574288,
               "RoomId": 1620,
@@ -6641,7 +6608,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 6,
+                  "LessonId": 5,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -6651,7 +6618,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 7,
+              "Id": 6,
               "LessonDayId": 2,
               "TeacherId": 634587,
               "RoomId": 1596,
@@ -6674,7 +6641,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 7,
+                  "LessonId": 6,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -6691,7 +6658,7 @@
           "Date": "2026-11-18T00:00:00",
           "Lessons": [
             {
-              "Id": 8,
+              "Id": 7,
               "LessonDayId": 3,
               "TeacherId": 614145,
               "RoomId": 1653,
@@ -6714,7 +6681,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 8,
+                  "LessonId": 7,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -6724,7 +6691,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 9,
+              "Id": 8,
               "LessonDayId": 3,
               "TeacherId": 30812,
               "RoomId": 1607,
@@ -6747,7 +6714,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 9,
+                  "LessonId": 8,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -6757,7 +6724,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 10,
+              "Id": 9,
               "LessonDayId": 3,
               "TeacherId": 541943,
               "RoomId": 2241,
@@ -6780,7 +6747,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 10,
+                  "LessonId": 9,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -6790,7 +6757,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 11,
+              "Id": 10,
               "LessonDayId": 3,
               "TeacherId": 574294,
               "RoomId": 5501,
@@ -6813,7 +6780,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 11,
+                  "LessonId": 10,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -6830,7 +6797,7 @@
           "Date": "2026-11-19T00:00:00",
           "Lessons": [
             {
-              "Id": 12,
+              "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
               "RoomId": 1652,
@@ -6853,7 +6820,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 12,
+                  "LessonId": 11,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -6863,7 +6830,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 13,
+              "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -6886,7 +6853,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 13,
+                  "LessonId": 12,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -6896,7 +6863,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 14,
+              "Id": 13,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -6919,8 +6886,41 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 14,
+                  "LessonId": 13,
                   "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 14,
+              "LessonDayId": 4,
+              "TeacherId": 809398,
+              "RoomId": 5462,
+              "Discipline": "Введение в DevOps",
+              "TimeBegin": "2026-11-19T18:30:00",
+              "TimeEnd": "2026-11-19T20:00:00",
+              "Aud": {
+                "Id": -1,
+                "Name": "ВКС"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 7,
+              "PairNumberEnd": 7,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 14,
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -7777,39 +7777,6 @@
               ],
               "Current": false,
               "LessonName": "пара"
-            },
-            {
-              "Id": 4,
-              "LessonDayId": 1,
-              "TeacherId": 809398,
-              "RoomId": 5462,
-              "Discipline": "Введение в DevOps",
-              "TimeBegin": "2026-11-30T16:50:00",
-              "TimeEnd": "2026-11-30T18:20:00",
-              "Aud": {
-                "Id": -1,
-                "Name": "ВКС"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 6,
-              "PairNumberEnd": 6,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 809398,
-                "Name": " Козлова Алина Дмитриевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 4,
-                  "Subgroup": "(1, 2)",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
             }
           ]
         },
@@ -7819,7 +7786,7 @@
           "Date": "2026-12-01T00:00:00",
           "Lessons": [
             {
-              "Id": 5,
+              "Id": 4,
               "LessonDayId": 2,
               "TeacherId": 740998,
               "RoomId": 5501,
@@ -7842,7 +7809,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 5,
+                  "LessonId": 4,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7852,7 +7819,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 6,
+              "Id": 5,
               "LessonDayId": 2,
               "TeacherId": 574288,
               "RoomId": 1620,
@@ -7875,7 +7842,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 6,
+                  "LessonId": 5,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7885,7 +7852,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 7,
+              "Id": 6,
               "LessonDayId": 2,
               "TeacherId": 634587,
               "RoomId": 1596,
@@ -7908,7 +7875,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 7,
+                  "LessonId": 6,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7925,7 +7892,7 @@
           "Date": "2026-12-02T00:00:00",
           "Lessons": [
             {
-              "Id": 8,
+              "Id": 7,
               "LessonDayId": 3,
               "TeacherId": 614145,
               "RoomId": 1653,
@@ -7948,7 +7915,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 8,
+                  "LessonId": 7,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7958,7 +7925,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 9,
+              "Id": 8,
               "LessonDayId": 3,
               "TeacherId": 30812,
               "RoomId": 1607,
@@ -7981,7 +7948,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 9,
+                  "LessonId": 8,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7991,7 +7958,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 10,
+              "Id": 9,
               "LessonDayId": 3,
               "TeacherId": 541943,
               "RoomId": 2241,
@@ -8014,7 +7981,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 10,
+                  "LessonId": 9,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -8024,7 +7991,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 11,
+              "Id": 10,
               "LessonDayId": 3,
               "TeacherId": 574294,
               "RoomId": 5501,
@@ -8047,7 +8014,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 11,
+                  "LessonId": 10,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -8064,7 +8031,7 @@
           "Date": "2026-12-03T00:00:00",
           "Lessons": [
             {
-              "Id": 12,
+              "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
               "RoomId": 1652,
@@ -8087,7 +8054,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 12,
+                  "LessonId": 11,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -8097,7 +8064,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 13,
+              "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -8120,7 +8087,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 13,
+                  "LessonId": 12,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -8130,7 +8097,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 14,
+              "Id": 13,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -8153,8 +8120,41 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 14,
+                  "LessonId": 13,
                   "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 14,
+              "LessonDayId": 4,
+              "TeacherId": 809398,
+              "RoomId": 5462,
+              "Discipline": "Введение в DevOps",
+              "TimeBegin": "2026-12-03T18:30:00",
+              "TimeEnd": "2026-12-03T20:00:00",
+              "Aud": {
+                "Id": -1,
+                "Name": "ВКС"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 7,
+              "PairNumberEnd": 7,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 14,
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -9011,39 +9011,6 @@
               ],
               "Current": false,
               "LessonName": "пара"
-            },
-            {
-              "Id": 4,
-              "LessonDayId": 1,
-              "TeacherId": 809398,
-              "RoomId": 5462,
-              "Discipline": "Введение в DevOps",
-              "TimeBegin": "2026-12-14T16:50:00",
-              "TimeEnd": "2026-12-14T18:20:00",
-              "Aud": {
-                "Id": -1,
-                "Name": "ВКС"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 6,
-              "PairNumberEnd": 6,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 809398,
-                "Name": " Козлова Алина Дмитриевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 4,
-                  "Subgroup": "(1, 2)",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
             }
           ]
         },
@@ -9053,7 +9020,7 @@
           "Date": "2026-12-15T00:00:00",
           "Lessons": [
             {
-              "Id": 5,
+              "Id": 4,
               "LessonDayId": 2,
               "TeacherId": 740998,
               "RoomId": 5501,
@@ -9076,7 +9043,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 5,
+                  "LessonId": 4,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -9086,7 +9053,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 6,
+              "Id": 5,
               "LessonDayId": 2,
               "TeacherId": 574288,
               "RoomId": 1620,
@@ -9109,7 +9076,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 6,
+                  "LessonId": 5,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -9119,7 +9086,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 7,
+              "Id": 6,
               "LessonDayId": 2,
               "TeacherId": 634587,
               "RoomId": 1596,
@@ -9142,7 +9109,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 7,
+                  "LessonId": 6,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -9159,7 +9126,7 @@
           "Date": "2026-12-16T00:00:00",
           "Lessons": [
             {
-              "Id": 8,
+              "Id": 7,
               "LessonDayId": 3,
               "TeacherId": 614145,
               "RoomId": 1653,
@@ -9182,7 +9149,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 8,
+                  "LessonId": 7,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -9192,7 +9159,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 9,
+              "Id": 8,
               "LessonDayId": 3,
               "TeacherId": 30812,
               "RoomId": 1607,
@@ -9215,7 +9182,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 9,
+                  "LessonId": 8,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -9225,7 +9192,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 10,
+              "Id": 9,
               "LessonDayId": 3,
               "TeacherId": 541943,
               "RoomId": 2241,
@@ -9248,7 +9215,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 10,
+                  "LessonId": 9,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -9258,7 +9225,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 11,
+              "Id": 10,
               "LessonDayId": 3,
               "TeacherId": 574294,
               "RoomId": 5501,
@@ -9281,7 +9248,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 11,
+                  "LessonId": 10,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -9298,7 +9265,7 @@
           "Date": "2026-12-17T00:00:00",
           "Lessons": [
             {
-              "Id": 12,
+              "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
               "RoomId": 1652,
@@ -9321,7 +9288,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 12,
+                  "LessonId": 11,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -9331,7 +9298,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 13,
+              "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -9354,7 +9321,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 13,
+                  "LessonId": 12,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -9364,7 +9331,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 14,
+              "Id": 13,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -9387,8 +9354,41 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 14,
+                  "LessonId": 13,
                   "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 14,
+              "LessonDayId": 4,
+              "TeacherId": 809398,
+              "RoomId": 5462,
+              "Discipline": "Введение в DevOps",
+              "TimeBegin": "2026-12-17T18:30:00",
+              "TimeEnd": "2026-12-17T20:00:00",
+              "Aud": {
+                "Id": -1,
+                "Name": "ВКС"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 7,
+              "PairNumberEnd": 7,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 14,
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
@@ -10245,39 +10245,6 @@
               ],
               "Current": false,
               "LessonName": "пара"
-            },
-            {
-              "Id": 4,
-              "LessonDayId": 1,
-              "TeacherId": 809398,
-              "RoomId": 5462,
-              "Discipline": "Введение в DevOps",
-              "TimeBegin": "2026-12-28T16:50:00",
-              "TimeEnd": "2026-12-28T18:20:00",
-              "Aud": {
-                "Id": -1,
-                "Name": "ВКС"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 6,
-              "PairNumberEnd": 6,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 809398,
-                "Name": " Козлова Алина Дмитриевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 4,
-                  "Subgroup": "(1, 2)",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
             }
           ]
         },
@@ -10287,7 +10254,7 @@
           "Date": "2026-12-29T00:00:00",
           "Lessons": [
             {
-              "Id": 5,
+              "Id": 4,
               "LessonDayId": 2,
               "TeacherId": 740998,
               "RoomId": 5501,
@@ -10310,7 +10277,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 5,
+                  "LessonId": 4,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -10320,7 +10287,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 6,
+              "Id": 5,
               "LessonDayId": 2,
               "TeacherId": 574288,
               "RoomId": 1620,
@@ -10343,7 +10310,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 6,
+                  "LessonId": 5,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -10353,7 +10320,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 7,
+              "Id": 6,
               "LessonDayId": 2,
               "TeacherId": 634587,
               "RoomId": 1596,
@@ -10376,7 +10343,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 7,
+                  "LessonId": 6,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -10393,7 +10360,7 @@
           "Date": "2026-12-30T00:00:00",
           "Lessons": [
             {
-              "Id": 8,
+              "Id": 7,
               "LessonDayId": 3,
               "TeacherId": 614145,
               "RoomId": 1653,
@@ -10416,7 +10383,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 8,
+                  "LessonId": 7,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -10426,7 +10393,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 9,
+              "Id": 8,
               "LessonDayId": 3,
               "TeacherId": 30812,
               "RoomId": 1607,
@@ -10449,7 +10416,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 9,
+                  "LessonId": 8,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -10459,7 +10426,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 10,
+              "Id": 9,
               "LessonDayId": 3,
               "TeacherId": 541943,
               "RoomId": 2241,
@@ -10482,7 +10449,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 10,
+                  "LessonId": 9,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -10492,7 +10459,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 11,
+              "Id": 10,
               "LessonDayId": 3,
               "TeacherId": 574294,
               "RoomId": 5501,
@@ -10515,7 +10482,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 11,
+                  "LessonId": 10,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -10532,7 +10499,7 @@
           "Date": "2026-12-31T00:00:00",
           "Lessons": [
             {
-              "Id": 12,
+              "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
               "RoomId": 1652,
@@ -10555,7 +10522,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 12,
+                  "LessonId": 11,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -10565,7 +10532,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 13,
+              "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -10588,7 +10555,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 13,
+                  "LessonId": 12,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -10598,7 +10565,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 14,
+              "Id": 13,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -10621,8 +10588,41 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 14,
+                  "LessonId": 13,
                   "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
+            },
+            {
+              "Id": 14,
+              "LessonDayId": 4,
+              "TeacherId": 809398,
+              "RoomId": 5462,
+              "Discipline": "Введение в DevOps",
+              "TimeBegin": "2026-12-31T18:30:00",
+              "TimeEnd": "2026-12-31T20:00:00",
+              "Aud": {
+                "Id": -1,
+                "Name": "ВКС"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 7,
+              "PairNumberEnd": 7,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 809398,
+                "Name": " Козлова Алина Дмитриевна"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 14,
+                  "Subgroup": "(1, 2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
