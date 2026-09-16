@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 05:34:53",
+  "updated_at": "2026-09-16 05:28:13",
   "group_id": 19931,
   "weeks": {
     "2026-09-07": {
@@ -399,13 +399,13 @@
               "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 626435,
-              "RoomId": 1652,
+              "RoomId": 1883,
               "Discipline": "Правовая и финансовая грамотность",
               "TimeBegin": "2026-09-10T08:00:00",
               "TimeEnd": "2026-09-10T09:30:00",
               "Aud": {
-                "Id": 1652,
-                "Name": "9-410"
+                "Id": 1883,
+                "Name": "9-405"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 1,
@@ -1669,13 +1669,13 @@
               "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
-              "RoomId": 1652,
+              "RoomId": 1883,
               "Discipline": "Правовая и финансовая грамотность",
               "TimeBegin": "2026-09-24T08:00:00",
               "TimeEnd": "2026-09-24T09:30:00",
               "Aud": {
-                "Id": 1652,
-                "Name": "9-410"
+                "Id": 1883,
+                "Name": "9-405"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 1,
@@ -2972,13 +2972,13 @@
               "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 626435,
-              "RoomId": 1652,
+              "RoomId": 1883,
               "Discipline": "Правовая и финансовая грамотность",
               "TimeBegin": "2026-10-08T08:00:00",
               "TimeEnd": "2026-10-08T09:30:00",
               "Aud": {
-                "Id": 1652,
-                "Name": "9-410"
+                "Id": 1883,
+                "Name": "9-405"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 1,
@@ -4242,13 +4242,13 @@
               "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
-              "RoomId": 1652,
+              "RoomId": 1883,
               "Discipline": "Правовая и финансовая грамотность",
               "TimeBegin": "2026-10-22T08:00:00",
               "TimeEnd": "2026-10-22T09:30:00",
               "Aud": {
-                "Id": 1652,
-                "Name": "9-410"
+                "Id": 1883,
+                "Name": "9-405"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 1,
@@ -5545,13 +5545,13 @@
               "Id": 12,
               "LessonDayId": 4,
               "TeacherId": 626435,
-              "RoomId": 1652,
+              "RoomId": 1883,
               "Discipline": "Правовая и финансовая грамотность",
               "TimeBegin": "2026-11-05T08:00:00",
               "TimeEnd": "2026-11-05T09:30:00",
               "Aud": {
-                "Id": 1652,
-                "Name": "9-410"
+                "Id": 1883,
+                "Name": "9-405"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 1,
@@ -6815,13 +6815,13 @@
               "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
-              "RoomId": 1652,
+              "RoomId": 1883,
               "Discipline": "Правовая и финансовая грамотность",
               "TimeBegin": "2026-11-19T08:00:00",
               "TimeEnd": "2026-11-19T09:30:00",
               "Aud": {
-                "Id": 1652,
-                "Name": "9-410"
+                "Id": 1883,
+                "Name": "9-405"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 1,
@@ -8052,13 +8052,13 @@
               "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
-              "RoomId": 1652,
+              "RoomId": 1883,
               "Discipline": "Правовая и финансовая грамотность",
               "TimeBegin": "2026-12-03T08:00:00",
               "TimeEnd": "2026-12-03T09:30:00",
               "Aud": {
-                "Id": 1652,
-                "Name": "9-410"
+                "Id": 1883,
+                "Name": "9-405"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 1,
@@ -9289,13 +9289,13 @@
               "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
-              "RoomId": 1652,
+              "RoomId": 1883,
               "Discipline": "Правовая и финансовая грамотность",
               "TimeBegin": "2026-12-17T08:00:00",
               "TimeEnd": "2026-12-17T09:30:00",
               "Aud": {
-                "Id": 1652,
-                "Name": "9-410"
+                "Id": 1883,
+                "Name": "9-405"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 1,
@@ -10526,13 +10526,13 @@
               "Id": 11,
               "LessonDayId": 4,
               "TeacherId": 626435,
-              "RoomId": 1652,
+              "RoomId": 1883,
               "Discipline": "Правовая и финансовая грамотность",
               "TimeBegin": "2026-12-31T08:00:00",
               "TimeEnd": "2026-12-31T09:30:00",
               "Aud": {
-                "Id": 1652,
-                "Name": "9-410"
+                "Id": 1883,
+                "Name": "9-405"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 1,
