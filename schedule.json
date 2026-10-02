@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01 06:41:07",
+  "updated_at": "2026-10-02 06:26:25",
   "group_id": 19931,
   "weeks": {
     "2026-09-07": {
@@ -1312,13 +1312,13 @@
               "Id": 19,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 1606,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-09-19T09:40:00",
               "TimeEnd": "2026-09-19T11:10:00",
               "Aud": {
-                "Id": 1606,
-                "Name": "9-511"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 2,
@@ -1345,13 +1345,13 @@
               "Id": 20,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 2817,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-09-19T11:20:00",
               "TimeEnd": "2026-09-19T12:50:00",
               "Aud": {
-                "Id": 2817,
-                "Name": "9-509А"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 3,
@@ -2502,7 +2502,7 @@
                   "Name": "ИНС-б-о-26-2"
                 }
               ],
-              "Current": true,
+              "Current": false,
               "LessonName": "пара"
             }
           ]
@@ -2542,7 +2542,7 @@
                   "Name": "ИНС-б-о-26-2"
                 }
               ],
-              "Current": false,
+              "Current": true,
               "LessonName": "пара"
             },
             {
@@ -2655,13 +2655,13 @@
               "Id": 19,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 1606,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-10-03T09:40:00",
               "TimeEnd": "2026-10-03T11:10:00",
               "Aud": {
-                "Id": 1606,
-                "Name": "9-511"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 2,
@@ -2688,13 +2688,13 @@
               "Id": 20,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 2817,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-10-03T11:20:00",
               "TimeEnd": "2026-10-03T12:50:00",
               "Aud": {
-                "Id": 2817,
-                "Name": "9-509А"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 3,
@@ -4031,13 +4031,13 @@
               "Id": 19,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 1606,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-10-17T09:40:00",
               "TimeEnd": "2026-10-17T11:10:00",
               "Aud": {
-                "Id": 1606,
-                "Name": "9-511"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 2,
@@ -4064,13 +4064,13 @@
               "Id": 20,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 2817,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-10-17T11:20:00",
               "TimeEnd": "2026-10-17T12:50:00",
               "Aud": {
-                "Id": 2817,
-                "Name": "9-509А"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 3,
@@ -5374,13 +5374,13 @@
               "Id": 19,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 1606,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-10-31T09:40:00",
               "TimeEnd": "2026-10-31T11:10:00",
               "Aud": {
-                "Id": 1606,
-                "Name": "9-511"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 2,
@@ -5407,13 +5407,13 @@
               "Id": 20,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 2817,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-10-31T11:20:00",
               "TimeEnd": "2026-10-31T12:50:00",
               "Aud": {
-                "Id": 2817,
-                "Name": "9-509А"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 3,
@@ -6750,13 +6750,13 @@
               "Id": 19,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 1606,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-11-14T09:40:00",
               "TimeEnd": "2026-11-14T11:10:00",
               "Aud": {
-                "Id": 1606,
-                "Name": "9-511"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 2,
@@ -6783,13 +6783,13 @@
               "Id": 20,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 2817,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-11-14T11:20:00",
               "TimeEnd": "2026-11-14T12:50:00",
               "Aud": {
-                "Id": 2817,
-                "Name": "9-509А"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 3,
@@ -8060,13 +8060,13 @@
               "Id": 18,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 1606,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-11-28T09:40:00",
               "TimeEnd": "2026-11-28T11:10:00",
               "Aud": {
-                "Id": 1606,
-                "Name": "9-511"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 2,
@@ -8093,13 +8093,13 @@
               "Id": 19,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 2817,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-11-28T11:20:00",
               "TimeEnd": "2026-11-28T12:50:00",
               "Aud": {
-                "Id": 2817,
-                "Name": "9-509А"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 3,
@@ -9370,13 +9370,13 @@
               "Id": 18,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 1606,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-12-12T09:40:00",
               "TimeEnd": "2026-12-12T11:10:00",
               "Aud": {
-                "Id": 1606,
-                "Name": "9-511"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 2,
@@ -9403,13 +9403,13 @@
               "Id": 19,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 2817,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-12-12T11:20:00",
               "TimeEnd": "2026-12-12T12:50:00",
               "Aud": {
-                "Id": 2817,
-                "Name": "9-509А"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 3,
@@ -10680,13 +10680,13 @@
               "Id": 18,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 1606,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-12-26T09:40:00",
               "TimeEnd": "2026-12-26T11:10:00",
               "Aud": {
-                "Id": 1606,
-                "Name": "9-511"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 2,
@@ -10713,13 +10713,13 @@
               "Id": 19,
               "LessonDayId": 6,
               "TeacherId": 540173,
-              "RoomId": 2817,
+              "RoomId": 1923,
               "Discipline": "Интенсивный курс русской разговорной речи и грамматики",
               "TimeBegin": "2026-12-26T11:20:00",
               "TimeEnd": "2026-12-26T12:50:00",
               "Aud": {
-                "Id": 2817,
-                "Name": "9-509А"
+                "Id": 1923,
+                "Name": "9-112"
               },
               "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
               "PairNumberStart": 3,
