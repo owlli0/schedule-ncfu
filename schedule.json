@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 06:26:29",
+  "updated_at": "2026-10-29 06:37:43",
   "group_id": 19931,
   "weeks": {
     "2026-09-07": {
@@ -5221,7 +5221,7 @@
                   "Name": "ИНС-б-о-26-2"
                 }
               ],
-              "Current": false,
+              "Current": true,
               "LessonName": "пара"
             }
           ]
