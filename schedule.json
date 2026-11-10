@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 07:25:45",
+  "updated_at": "2026-11-10 07:53:34",
   "group_id": 19931,
   "weeks": {
     "2026-09-07": {
@@ -6147,7 +6147,7 @@
                   "Name": "ИНС-б-о-26-2"
                 }
               ],
-              "Current": true,
+              "Current": false,
               "LessonName": "пара"
             },
             {
@@ -6286,7 +6286,7 @@
                   "Name": "ИНС-б-о-26-2"
                 }
               ],
-              "Current": false,
+              "Current": true,
               "LessonName": "пара"
             },
             {
@@ -7558,6 +7558,39 @@
               ],
               "Current": false,
               "LessonName": "пара"
+            },
+            {
+              "Id": 4,
+              "LessonDayId": 1,
+              "TeacherId": 270402,
+              "RoomId": 2260,
+              "Discipline": "Физическая культура и спорт",
+              "TimeBegin": "2026-11-23T15:00:00",
+              "TimeEnd": "2026-11-23T16:30:00",
+              "Aud": {
+                "Id": 2260,
+                "Name": "2-123"
+              },
+              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
+              "PairNumberStart": 5,
+              "PairNumberEnd": 5,
+              "WeekDay": null,
+              "SubGroups": null,
+              "Teacher": {
+                "Id": 270402,
+                "Name": " Вучев Владислав Николаев"
+              },
+              "AcademicGroup": null,
+              "Groups": [
+                {
+                  "LessonId": 4,
+                  "Subgroup": "",
+                  "Id": 19931,
+                  "Name": "ИНС-б-о-26-2"
+                }
+              ],
+              "Current": false,
+              "LessonName": "пара"
             }
           ]
         },
@@ -7567,7 +7600,7 @@
           "Date": "2026-11-24T00:00:00",
           "Lessons": [
             {
-              "Id": 4,
+              "Id": 5,
               "LessonDayId": 2,
               "TeacherId": 618353,
               "RoomId": 5661,
@@ -7590,7 +7623,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 4,
+                  "LessonId": 5,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7600,7 +7633,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 5,
+              "Id": 6,
               "LessonDayId": 2,
               "TeacherId": 29867,
               "RoomId": 1694,
@@ -7623,7 +7656,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 5,
+                  "LessonId": 6,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7633,7 +7666,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 6,
+              "Id": 7,
               "LessonDayId": 2,
               "TeacherId": 740998,
               "RoomId": 1620,
@@ -7656,7 +7689,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 6,
+                  "LessonId": 7,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7666,7 +7699,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 7,
+              "Id": 8,
               "LessonDayId": 2,
               "TeacherId": 634587,
               "RoomId": 1585,
@@ -7689,7 +7722,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 7,
+                  "LessonId": 8,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7706,7 +7739,7 @@
           "Date": "2026-11-25T00:00:00",
           "Lessons": [
             {
-              "Id": 8,
+              "Id": 9,
               "LessonDayId": 3,
               "TeacherId": 339292,
               "RoomId": 1820,
@@ -7729,7 +7762,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 8,
+                  "LessonId": 9,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7739,7 +7772,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 9,
+              "Id": 10,
               "LessonDayId": 3,
               "TeacherId": 30812,
               "RoomId": 1607,
@@ -7762,7 +7795,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 9,
+                  "LessonId": 10,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7772,7 +7805,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 10,
+              "Id": 11,
               "LessonDayId": 3,
               "TeacherId": 541943,
               "RoomId": 2241,
@@ -7795,7 +7828,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 10,
+                  "LessonId": 11,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7805,7 +7838,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 11,
+              "Id": 12,
               "LessonDayId": 3,
               "TeacherId": 574294,
               "RoomId": 5501,
@@ -7828,7 +7861,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 11,
+                  "LessonId": 12,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7845,7 +7878,7 @@
           "Date": "2026-11-26T00:00:00",
           "Lessons": [
             {
-              "Id": 12,
+              "Id": 13,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 1334,
@@ -7868,7 +7901,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 12,
+                  "LessonId": 13,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7878,7 +7911,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 13,
+              "Id": 14,
               "LessonDayId": 4,
               "TeacherId": 29978,
               "RoomId": 5661,
@@ -7901,7 +7934,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 13,
+                  "LessonId": 14,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7918,7 +7951,7 @@
           "Date": "2026-11-27T00:00:00",
           "Lessons": [
             {
-              "Id": 14,
+              "Id": 15,
               "LessonDayId": 5,
               "TeacherId": 679561,
               "RoomId": 2281,
@@ -7941,7 +7974,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 14,
+                  "LessonId": 15,
                   "Subgroup": "(1)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7951,7 +7984,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 15,
+              "Id": 16,
               "LessonDayId": 5,
               "TeacherId": 29978,
               "RoomId": 2269,
@@ -7974,7 +8007,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 15,
+                  "LessonId": 16,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -7984,7 +8017,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 16,
+              "Id": 17,
               "LessonDayId": 5,
               "TeacherId": 679561,
               "RoomId": 2281,
@@ -8007,7 +8040,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 16,
+                  "LessonId": 17,
                   "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -8017,7 +8050,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 17,
+              "Id": 18,
               "LessonDayId": 5,
               "TeacherId": 809398,
               "RoomId": 5462,
@@ -8040,7 +8073,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 17,
+                  "LessonId": 18,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -8057,7 +8090,7 @@
           "Date": "2026-11-28T00:00:00",
           "Lessons": [
             {
-              "Id": 18,
+              "Id": 19,
               "LessonDayId": 6,
               "TeacherId": 540173,
               "RoomId": 1923,
@@ -8080,7 +8113,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 18,
+                  "LessonId": 19,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -8090,7 +8123,7 @@
               "LessonName": "пара"
             },
             {
-              "Id": 19,
+              "Id": 20,
               "LessonDayId": 6,
               "TeacherId": 540173,
               "RoomId": 1923,
@@ -8113,7 +8146,7 @@
               "AcademicGroup": null,
               "Groups": [
                 {
-                  "LessonId": 19,
+                  "LessonId": 20,
                   "Subgroup": "",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
@@ -11158,218 +11191,6 @@
                 {
                   "LessonId": 12,
                   "Subgroup": "",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
-            }
-          ]
-        },
-        {
-          "Id": 4,
-          "WeekDay": "Четверг",
-          "Date": "2026-12-31T00:00:00",
-          "Lessons": [
-            {
-              "Id": 13,
-              "LessonDayId": 4,
-              "TeacherId": 626435,
-              "RoomId": 1883,
-              "Discipline": "Правовая и финансовая грамотность",
-              "TimeBegin": "2026-12-31T08:00:00",
-              "TimeEnd": "2026-12-31T09:30:00",
-              "Aud": {
-                "Id": 1883,
-                "Name": "9-405"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 1,
-              "PairNumberEnd": 1,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 626435,
-                "Name": " Чомаев Альберт Ансарович"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 13,
-                  "Subgroup": "",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
-            },
-            {
-              "Id": 14,
-              "LessonDayId": 4,
-              "TeacherId": 29978,
-              "RoomId": 5661,
-              "Discipline": "Математический анализ",
-              "TimeBegin": "2026-12-31T09:40:00",
-              "TimeEnd": "2026-12-31T11:10:00",
-              "Aud": {
-                "Id": 5661,
-                "Name": "9-1А"
-              },
-              "LessonType": "Лекция                                                                                                                                                                                                                                                    ",
-              "PairNumberStart": 2,
-              "PairNumberEnd": 2,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 29978,
-                "Name": "к.ф.-м.н. Крахоткина Елена Васильевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 14,
-                  "Subgroup": "",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
-            },
-            {
-              "Id": 15,
-              "LessonDayId": 4,
-              "TeacherId": 29978,
-              "RoomId": 5661,
-              "Discipline": "Алгебра",
-              "TimeBegin": "2026-12-31T11:20:00",
-              "TimeEnd": "2026-12-31T12:50:00",
-              "Aud": {
-                "Id": 5661,
-                "Name": "9-1А"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 3,
-              "PairNumberEnd": 3,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 29978,
-                "Name": "к.ф.-м.н. Крахоткина Елена Васильевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 15,
-                  "Subgroup": "",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
-            }
-          ]
-        },
-        {
-          "Id": 5,
-          "WeekDay": "Пятница",
-          "Date": "2027-01-01T00:00:00",
-          "Lessons": [
-            {
-              "Id": 16,
-              "LessonDayId": 5,
-              "TeacherId": 679561,
-              "RoomId": 2281,
-              "Discipline": "Физика",
-              "TimeBegin": "2027-01-01T08:00:00",
-              "TimeEnd": "2027-01-01T09:30:00",
-              "Aud": {
-                "Id": 2281,
-                "Name": "2-230"
-              },
-              "LessonType": "Лабораторная работа                                                                                                                                                                                                                                       ",
-              "PairNumberStart": 1,
-              "PairNumberEnd": 1,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 679561,
-                "Name": " Боженко Софья Александровна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 16,
-                  "Subgroup": "(1)",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
-            },
-            {
-              "Id": 17,
-              "LessonDayId": 5,
-              "TeacherId": 29978,
-              "RoomId": 2269,
-              "Discipline": "Математический анализ",
-              "TimeBegin": "2027-01-01T09:40:00",
-              "TimeEnd": "2027-01-01T11:10:00",
-              "Aud": {
-                "Id": 2269,
-                "Name": "2-212"
-              },
-              "LessonType": "Практическое занятие                                                                                                                                                                                                                                      ",
-              "PairNumberStart": 2,
-              "PairNumberEnd": 2,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 29978,
-                "Name": "к.ф.-м.н. Крахоткина Елена Васильевна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 17,
-                  "Subgroup": "",
-                  "Id": 19931,
-                  "Name": "ИНС-б-о-26-2"
-                }
-              ],
-              "Current": false,
-              "LessonName": "пара"
-            },
-            {
-              "Id": 18,
-              "LessonDayId": 5,
-              "TeacherId": 679561,
-              "RoomId": 2281,
-              "Discipline": "Физика",
-              "TimeBegin": "2027-01-01T11:20:00",
-              "TimeEnd": "2027-01-01T12:50:00",
-              "Aud": {
-                "Id": 2281,
-                "Name": "2-230"
-              },
-              "LessonType": "Лабораторная работа                                                                                                                                                                                                                                       ",
-              "PairNumberStart": 3,
-              "PairNumberEnd": 3,
-              "WeekDay": null,
-              "SubGroups": null,
-              "Teacher": {
-                "Id": 679561,
-                "Name": " Боженко Софья Александровна"
-              },
-              "AcademicGroup": null,
-              "Groups": [
-                {
-                  "LessonId": 18,
-                  "Subgroup": "(2)",
                   "Id": 19931,
                   "Name": "ИНС-б-о-26-2"
                 }
